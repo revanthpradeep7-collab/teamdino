@@ -15,4 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/teamdino/",   // 👈 Required for GitHub Pages deployment
 }));
